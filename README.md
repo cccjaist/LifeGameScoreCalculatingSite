@@ -1,0 +1,2 @@
+# LifeGameScoreCalculatingSite
+新入生歓迎イベントで実施する女子学生キャリアゲームで、各プレイヤーの得点を計算するサイトです。
