@@ -1,0 +1,32 @@
+.table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table th {
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+    background: #778ca3;
+    border: solid 1px #666666;
+    color: #ffffff;
+}
+.table td {
+    text-align: right;
+    padding: 10px;
+    border: solid 1px #666666;
+}
+.table td:first-child {
+    text-align: left;
+    background: #e9faf9;
+}
+
+input {
+    width: 100%; /*親要素いっぱい広げる*/
+    padding: 10px 15px; /*ボックスを大きくする*/
+    font-size: 16px;
+    border-radius: 3px; /*ボックス角の丸み*/
+    border: 2px solid #ddd; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+}
