@@ -1,12 +1,34 @@
-.m-plus-rounded-1c-regular {
+body {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #fffafa;
+  color: #333631;
 }
 
+h1 {
+    margin: 1%;
+    color: #cd5c5c;
+}
+
+h2 {
+    font-size: medium;
+}
+
+#input-form {
+    margin: 1%;
+    padding: 1%;
+    background-color: #fff4f4;
+}
+
+#input-value-1 #input-value-2 #input-value-3 {
+    padding-right: 1%;
+}
 
 .table {
-    width: 100%;
+    margin: 1%;
+    padding: 1%;
+    width: 98%;
     text-align: center;
     border-collapse: collapse;
     border-spacing: 0;
@@ -15,17 +37,16 @@
     text-align: center;
     padding: 10px;
     width: 20%;
-    background: #778ca3;
-    border: solid 1px #666666;
-    color: #ffffff;
+    background: #e8d3d1;
+    text-align: left;
 }
 .table td {
     text-align: right;
     padding: 10px;
-    border: solid 1px #666666;
+    border: none;
+    border-top: dashed 1px #778ca3;
 }
 .table td:first-child {
     text-align: left;
-    background: #e9faf9;
 }
 

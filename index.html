@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="main.js"></script>
     </head>
-    <body class="m-plus-rounded-1c-regular">
+    <body>
         <h1>女子学生キャリアゲーム</h1>
 
         <div id="input-form">
@@ -28,9 +28,20 @@
                 <label for="name-num">奈良 林凜</label>
             </form>
 
-            <p>JAIST P<input type="text" id="input-value-1" /></p>
-            <p>メンタルP<input type="text" id="input-value-2" /></p>
-            <p>アカデミックP<input type="text" id="input-value-3" /></p>
+            <table>
+                <tr>
+                    <td>JAIST P</td>
+                    <td><input type="text" id="input-value-1" /></td>
+                </tr>
+                <tr>
+                    <td>メンタル P</td>
+                    <td><input type="text" id="input-value-2" /></td>
+                </tr>
+                <tr>
+                    <td>アカデミック P</td>
+                    <td><input type="text" id="input-value-3" /></td>
+                </tr>
+            </table>
 
             <button onclick="changeStatus()">変更</button>
         </div>
