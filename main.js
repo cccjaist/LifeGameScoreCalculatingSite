@@ -25,8 +25,23 @@ function changeStatus() {
     }
 
     for (let i = 0; i < 3; i++) {
-        let cell = document.getElementById((targetNum + 1) + "-" + (i + 2));
+        let cell = document.getElementById(targetNum + "-" + (i + 2));
         let inputValue = parseInt(document.getElementById("input-value-" + (i + 1)).value);
         cell.innerText = parseInt(cell.innerText) + inputValue;
     }
+}
+
+function judge() {
+    let score = [0, 0, 0, 0, 0];
+    for (let i = 0; i < 5; i++) {
+        let playerNum = i + 1;
+        for (let j = 0; j < 3; j++) {
+            let cell = document.getElementById((playerNum + 1) + "-" + (j + 2));
+            score[i] += parseInt(cell.innerText);
+        }
+    }
+
+    console.log(score);
+    
+
 }
