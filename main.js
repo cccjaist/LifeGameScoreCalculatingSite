@@ -1,5 +1,5 @@
 window.addEventListener("load", (event) => {
-    let table = document.getElementById("table");
+    let table = document.getElementById("calc-table");
 
     let rnum = 0;
     for (let row of table.rows) {
