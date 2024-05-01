@@ -36,7 +36,6 @@ function changeStatus() {
 }
 
 function judge() {
-    // let score = [0, 0, 0, 0, 0];
     let score = {};
     let weight = [1, 1/5, 1/5000];
     let len = charactersName.length;
@@ -60,7 +59,7 @@ function judge() {
     let rankNum = 1;
 
     for (let i = 0; i < len; i++) {
-        rankingText += rankNum + "位. " + sortedScore[i]["value"].toFixed(2) + "点：" + sortedScore[i]["key"] + "\n";
+        rankingText += rankNum + "位　" + sortedScore[i]["value"].toFixed(2) + "点　" + sortedScore[i]["key"] + "\n";
         if (i < len - 1 && sortedScore[i]["value"] != sortedScore[i + 1]["value"]) {
             rankNum++;
         }
