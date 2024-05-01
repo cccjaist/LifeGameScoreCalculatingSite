@@ -33,15 +33,14 @@ function changeStatus() {
 
 function judge() {
     let score = [0, 0, 0, 0, 0];
+    let weight = [1, 1/5, 1/5000];
     for (let i = 0; i < 5; i++) {
-        let playerNum = i + 1;
         for (let j = 0; j < 3; j++) {
-            let cell = document.getElementById((playerNum + 1) + "-" + (j + 2));
-            score[i] += parseInt(cell.innerText);
+            let cell = document.getElementById((i + 1) + "-" + (j + 2));
+            score[i] += weight[j] * parseInt(cell.innerText);
         }
     }
 
     console.log(score);
-    
 
 }
