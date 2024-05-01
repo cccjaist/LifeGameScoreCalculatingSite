@@ -27,7 +27,9 @@ function changeStatus() {
     for (let i = 0; i < 3; i++) {
         let cell = document.getElementById(targetNum + "-" + (i + 2));
         let inputValue = parseInt(document.getElementById("input-value-" + (i + 1)).value);
-        cell.innerText = parseInt(cell.innerText) + inputValue;
+        if (!isNaN(inputValue)) {
+            cell.innerText = parseInt(cell.innerText) + inputValue;
+        }
     }
 }
 
