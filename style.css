@@ -20,6 +20,31 @@ button {
     padding: 1% 2% 1% 2%;
 }
 
+#result-dialog {
+    visibility: hidden;
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 2%;
+    z-index: 2;
+    background-color: #fffafa;
+}
+
+#dialog-background {
+    visibility: hidden;
+    position: absolute;
+    background-size: cover;
+    opacity: 0.33;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 1;
+}
+
 #input-form {
     margin: 1%;
     padding: 1%;
