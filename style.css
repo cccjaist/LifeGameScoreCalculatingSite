@@ -15,6 +15,11 @@ h2 {
     font-size: medium;
 }
 
+button {
+    margin: 1%;
+    padding: 1% 2% 1% 2%;
+}
+
 #input-form {
     margin: 1%;
     padding: 1%;
