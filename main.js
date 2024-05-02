@@ -37,7 +37,7 @@ function changeStatus() {
 
 function judge() {
     let score = {};
-    let weight = [1, 1/5, 1/5000];
+    let weight = [1/5000, 1/5, 1];
     let len = charactersName.length;
 
     for (let i = 0; i < len; i++) {
