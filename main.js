@@ -1,4 +1,4 @@
-const charactersName = ["荒井 マリカ", "高橋 和美", "新庄 絵里", "山本 かおる", "奈良 林凜"];
+const charactersName = ["荒井 マリカ", "高橋 和美", "新庄 絵里", "山本 かおる", "奈良林 凜"];
 
 window.addEventListener("load", (event) => {
     let table = document.getElementById("calc-table");
